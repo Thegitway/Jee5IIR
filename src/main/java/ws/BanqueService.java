@@ -11,7 +11,7 @@ import metier.Compte;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-@WebService(serviceName = 'BanqueWs')
+@WebService(serviceName = "BanqueWs")
 public class BanqueService{
     @WebMethod()
     public double conversion(@WebParam(name="montant") double mt){
