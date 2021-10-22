@@ -3,7 +3,7 @@ package metier;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 import java.util.Date;
-@XmlRootElement(name = 'compte')
+@XmlRootElement(name = "compte")
 public class Compte {
     private Long code;
     private double solde;
@@ -14,6 +14,7 @@ public class Compte {
         this.solde = solde;
         this.dateCreation = dateCreation;
     }
+    public Compte(){}
 
 
 }
